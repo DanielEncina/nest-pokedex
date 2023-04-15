@@ -1,0 +1,11 @@
+html, body {
+  padding: 20px;
+  background-color: grey;
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+  margin: 0 0 0.3em 0;
+  color: deeppink;
+}
