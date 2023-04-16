@@ -13,15 +13,24 @@ yarn install
 ```
 npm i -g @nestjs/cli
 ```
-4. levantar la base de datos 
+4. Levantar la base de datos 
 ```
 docker-compose up -d
 ```
-5. Reconstruir base de datos con la semilla solo ejecutar en desarrollo
+5. Clonar el archivo ```.env.template``` y renombrar la copia a ```.env```
+
+6. Llenar variables de entorno definidad en ```.env```, solicitar credenciales de seguridad a adminisgtrador de proyecto.
+7. Ejecutar la aplicacion en ambiente desarrollo ```dev```
+```
+yarn start:dev
+```
+Extra Reconstruir base de datos con la semilla. __Solo ejecutar en desarrollo!__
 ```
 http://127.0.0.1:3000/api/v2/seed
 ```
 ## Stack usado 
-* MongoDB
 * NestJs
+* MongoDB
 * Mongoose
+* axios
+* joi
