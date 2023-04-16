@@ -1,6 +1,16 @@
+# build
+dist/
+
+# node
+node_modules/
+
+# git
+.gitignore
+.git/
+
+
 # secret files
 .env
-.env.prod
 
 # compiled output
 /dist
