@@ -15,6 +15,6 @@ export class CreatePokemonDto {
   @IsInt()
   @IsPositive()
   @Min(1)
-  @Max(9999)
+  @Max(9999999)
   readonly no: number;
 }
